@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chatmark - The best way to save and read your ChatGPT conversations on mobile.">
+    <title>Chatmark | Save ChatGPT Conversations Instantly</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Chatmark</div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Never lose a <span class="highlight">ChatGPT</span> conversation again.</h1>
+                <p>Save your AI chats instantly with the iOS Share Extension. Read them in beautiful, un-broken markdown. 100% local, no server required.</p>
+                <div class="cta-group">
+                    <a href="#" class="btn btn-primary">Download on App Store</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <div class="screen">
+                        <div class="chat-bubble user">Write a python script to parse a CSV file.</div>
+                        <div class="chat-bubble ai">
+                            <p>Here is a simple python script:</p>
+                            <pre><code>import csv
+with open('data.csv', 'r') as f:
+    reader = csv.reader(f)</code></pre>
+                        </div>
+                        <div class="save-toast">✨ Saved to Chatmark</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Why use Chatmark?</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="icon">🚀</div>
+                    <h3>Zero Friction</h3>
+                    <p>Just tap Share in the ChatGPT app and choose Chatmark. Saved in 3 seconds without switching apps.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">✨</div>
+                    <h3>Beautiful Markdown</h3>
+                    <p>Unlike Apple Notes, Chatmark perfectly renders bold text, headers, and code blocks for easy reading.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🔒</div>
+                    <h3>100% Private</h3>
+                    <p>All data is stored locally on your device via SQLite. No cloud, no servers, full privacy.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Chatmark</div>
+            <div class="footer-links">
+                <a href="mailto:support@chatmark.app">Support</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <p>&copy; 2026 Chatmark. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
