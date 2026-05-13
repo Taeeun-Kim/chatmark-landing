@@ -89,6 +89,7 @@ body {
 .hero-content {
     flex: 1;
     max-width: 600px;
+    margin-left: 6%;
 }
 
 .hero h1 {
@@ -136,7 +137,8 @@ body {
 .hero-visual {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    padding-right: 2%;
     position: relative;
 }
 
@@ -413,6 +415,12 @@ footer p {
 
     .hero-visual {
         margin-top: 4rem;
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .hero-content {
+        margin-left: 0;
     }
 
     .document {
